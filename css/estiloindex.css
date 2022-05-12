@@ -2,14 +2,30 @@ body{
 	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
+.contacto__rapido{
+	background-color: #bdb5b5;;
+	height: 30px;
+	display: flex;
+}
+.contacto__rapido p{
+	margin-left: 64px;
+}
+.contacto__rapido i{
+	margin: 10px;
+}
+.contacto__rapido a{
+		color: #000;
+}
+
 .fondo__top{
 	background: url(../img/ley-1.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 	height: 60vh;
-	
+	margin-top: 0px;
 }
 .fondo__top h2{
+	cursor:default;
 	position: absolute;
 	text-align:center;
 	vertical-align: middle;
@@ -21,6 +37,7 @@ body{
 }
 
 .contenedor{
+	cursor:default;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -28,6 +45,7 @@ body{
     padding:52px 0;
 }
 .parrafo{
+	cursor:default;
     margin-bottom: 13px;
     font-weight: 300;
     text-align: justify;
@@ -60,6 +78,7 @@ body{
 }
 
 .card{
+	cursor:default;
     margin: 20px 0;
     width: 30%;
     height: 250px;
@@ -82,6 +101,7 @@ body{
 	height: 30vh;
 }
 .fondo__bot h4{
+	cursor:default;	
 	position: relative;
 	text-align:center;
 	vertical-align: middle;
@@ -93,13 +113,14 @@ body{
 }
 
 footer {
- background-image: linear-gradient(to right, #434343 0%, black 100%);
-  padding: .5rem .8rem;
+	cursor:default;
+ 	background-image: linear-gradient(to right, #434343 0%, black 100%);
+ 	padding: .5rem .8rem;
 }
 footer p {
-  color: rgba(255,255,255,9);
-  font-family: 'segoe ui';
-  text-align: center;
+	color: rgba(255,255,255,9);
+	font-family: 'segoe ui';
+	text-align: center;
 }
 .contacto{
 	margin-left: 30px;
@@ -111,11 +132,11 @@ footer p {
 }
 
 .card__contac h2{
-	font-size: 15px;
+	font-size: 20px;
 	color: #a2a2a2;
 }
 .card__contac h3{
-	font-size: 10px;
+	font-size: 15px;
 	color: #d0d0d0;
 }
 .direccion{
@@ -124,10 +145,11 @@ footer p {
 .telefono{
 	margin-top: 15px;
 }
-.email{
+.email{ 	
 	margin-top: 15px;
 }
 .derecho__autor{
+	cursor:default;
 	background-color: #4e4e4e;
 	display: flex;
 }
@@ -150,6 +172,17 @@ footer p {
 
 
 @media (max-width: 952px){
+	.contacto__rapido{
+		position: static;
+		display: inline-table;
+		width: 100%;
+	}
+	.contacto__rapido p{
+		margin-left: 50px;
+	}
+	.contacto__rapido i{
+		margin: 5px;
+	}
 	.card {
         width: 48%;
     }
