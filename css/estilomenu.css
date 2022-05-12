@@ -98,6 +98,8 @@ li a.active, li a:hover{
 		transition: all .5s;
 	}
 	.logo{
+		width: 300px;
+		height: 70px;
 		position:relative; z-index:1
 	}
 	nav ul li{
