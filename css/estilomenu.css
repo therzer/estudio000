@@ -27,6 +27,7 @@ nav{
 .logo{
 	height: 80px;
 	border-radius: 5px;
+	margin-top: 5px;
 }
 
 nav ul{
@@ -98,9 +99,8 @@ li a.active, li a:hover{
 	.logo{
 		position:relative; 
 		z-index:1;
-
 		width: 300px;
-		height: 60px;
+		height: 70px;
 	}
 	nav ul li{
 		display: block;
