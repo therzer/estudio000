@@ -1,0 +1,181 @@
+.contacto__rapido{
+	background-color: #bdb5b5;;
+	height: 30px;
+	display: flex;
+}
+.contacto__rapido p{
+	margin-left: 64px;
+}
+.contacto__rapido i{
+	margin: 10px;
+}
+.contacto__rapido a{
+		color: #000;
+}
+
+.laboral{
+	display: inline-block;
+	width: 100%;
+  	margin: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pregunta{
+	height: 100px;
+	background-color: orange;
+	margin: 10px;
+	border-radius: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+	width: 70%;
+}
+.pregunta h2{
+	text-align: center;
+	font-size: 24px;
+	padding-top: 15px;
+}
+.pregunta h3{
+	text-align: center;
+}
+
+
+.articulo__despido{
+	width: 100%;
+    padding:52px 0;
+    position: fixed;
+    background-color: #2a2928;
+    color: #fff;
+    top: 70%;
+}
+.titulo{
+	position: absolute;
+	margin: auto;
+	top: 5%;
+	margin-left: 20px;
+}
+.parrafo{
+	height: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	font-size: 16px;
+}
+
+
+@media (max-width:720px){
+	.contacto__rapido{
+		position: static;
+		display: inline-table;
+		width: 100%;
+	}
+	.contacto__rapido p{
+		margin-left: 50px;
+	}
+	.contacto__rapido i{
+		margin: 5px;
+	}
+	.laboral{
+		font-size: 12px;
+		display: flex;
+		position: fixed;
+		margin-left: 10%;
+	}
+	.pregunta{
+		margin: 10px;
+	}
+
+	.articulo__despido{
+		position: fixed;
+		top: 90%;
+	}
+	.titulo{
+		top: 2%;
+	}
+	.parrafo{
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
+
+
+
+@media (max-width: 500px){
+	.contacto__rapido{
+		position: static;
+		display: inline-table;
+		width: 100%;
+	}
+	.contacto__rapido p{
+		margin-left: 50px;
+	}
+	.contacto__rapido i{
+		margin: 5px;
+	}
+	.laboral{
+		margin-left: auto;
+		position: absolute;
+		top: 10px;
+	}
+	.pregunta{
+		width: 100%;
+		margin: 5px;
+	}
+	.pregunta h2{
+		font-size: 20px;
+	}
+
+	.articulo__despido{
+		display: flex;
+		position: absolute;
+		top: 90%;
+		height: auto;
+	}
+	.titulo{
+		top: 2%;
+	}
+	.parrafo{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+@media (max-width: 318px){
+	.contacto__rapido{
+		position: static;
+		display: inline-table;
+		width: 100%;
+	}
+	.contacto__rapido p{
+		margin-left: 50px;
+	}
+	.contacto__rapido i{
+		margin: 5px;
+	}
+	.laboral{
+		font-size: 12px;
+		width: 520px;
+		left: auto;
+		right: auto;
+		position: fixed;
+		margin-left: 8px;
+	}
+	.pregunta{
+		margin: 10px;
+	}
+
+	.articulo__despido{
+		display: block;
+		position: fixed;
+		top: 70%;
+	}
+	.titulo{
+		top: 2%;
+	}
+	.parrafo{
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
